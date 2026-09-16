@@ -297,24 +297,32 @@
     "consent_details_rejected": "We’re sorry! Your login was unsuccessful as consent was not shared."
   },
   "loginOptions": {
-    "buttons": {
-      "vid": "UIN/VID",
-      "uin": "UIN",
-      "nipNumber": "IPN"
-    },
-    "input": {
-      "label": {
-        "vid": "UIN/VID",
-        "uin": "UIN",
-        "nipNumber": "IPN"
-      },
-      "placeholder": {
-       "nipNumber": "Enter IPN",
-       "uin": "Enter UIN",
-       "vid": "Enter UIN/VID"
-      }
-    }
-  },
+    "buttons": {
+      "mobile": "Mobile Number",
+      "nrc": "NRC ID",
+      "vid": "UIN/VID",
+      "email": "Email",
+      "nipNumber": "IPN",
+      "uin": "V-Credential Number"
+    },
+    "input": {
+      "label": {
+        "mobile": "Mobile Number",
+        "nrc": "NRC ID",
+        "vid": "UIN/VID",
+        "email": "Email",
+        "nipNumber": "IPN",
+        "uin": "V-Credential Number"
+      },
+      "placeholder": {
+        "mobile": "Enter Mobile Number",
+        "nrc": "Enter NRC ID",
+        "vid": "Enter UIN/VID",
+        "email": "Enter Email ID",
+        "nipNumber": "Enter IPN",
+        "uin": "Enter V-Credential Number"
+      }
+    }.
   "errors": {
     "invalid_policyNumber": "Please Enter Valid Policy Number.",
     "invalid_fullName": "Please Enter Valid Name.",
