@@ -195,6 +195,8 @@ const LoginIDOptions = (props) => {
                   index === options.length - 1 &&
                   options.length > 1
                     ? "col-span-2 mx-auto w-1/2"
+                    : options.length === 1
+                    ? "hidden"
                     : ""
                 }`}
             >
