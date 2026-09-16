@@ -37,6 +37,22 @@ const LoginIDOptions = (props) => {
   if (!loginIDs || loginIDs.length === 0) {
     loginIDs = [
       {
+        id: "nipNumber",
+        svg: "vid_icon",
+        prefixes: "",
+        postfix: "",
+        maxLength: "",
+        regex: "",
+      },
+      {
+        id: "uin",
+        svg: "vid_icon",
+        prefixes: "",
+        postfix: "",
+        maxLength: "",
+        regex: "",
+      },
+      {
         id: "vid",
         svg: "vid_icon",
         prefixes: "",
@@ -179,8 +195,6 @@ const LoginIDOptions = (props) => {
                   index === options.length - 1 &&
                   options.length > 1
                     ? "col-span-2 mx-auto w-1/2"
-                    : options.length === 1
-                    ? "hidden"
                     : ""
                 }`}
             >
