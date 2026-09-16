@@ -296,34 +296,35 @@
     "popup_body": "{{clientName}} nécessite un accès pour poursuivre. Souhaitez-vous toujours interrompre le processus ?",
     "consent_details_rejected": "Nous sommes désolés ! Votre connexion a échoué car le consentement n’a pas été partagé."
   },
-  "loginOptions": {
-    "buttons": {
-      "mobile": "Mobile Number",
-      "nrc": "NRC ID",
-      "vid": "UIN/VID",
-      "email": "Email",
-      "nipNumber": "NIP",
-      "uin": "Numéro de justificatif V"
-    },
-    "input": {
-      "label": {
-        "mobile": "Mobile Number",
-        "nrc": "NRC ID",
-        "vid": "UIN/VID",
-        "email": "Email",
-        "nipNumber": "NIP",
-        "uin": "Numéro de justificatif V"
-      },
-      "placeholder": {
-        "mobile": "Enter Mobile Number",
-        "nrc": "Enter NRC ID",
-        "vid": "Saisir le UIN/VID",
-        "email": "Saisissez votre adresse e-mail",
-        "nipNumber": "Saisissez le NIP",
-        "uin": "Saisissez le numéro V-Credential"
-      }
-    },
-  "errors": {
+"loginOptions": {
+  "buttons": {
+    "mobile": "Mobile Number",
+    "nrc": "NRC ID",
+    "vid": "VID",
+    "email": "Email",
+    "nipNumber": "IPN",
+    "uin": "UIN"
+  },
+  "input": {
+    "label": {
+      "mobile": "Mobile Number",
+      "nrc": "NRC ID",
+      "vid": "VID",
+      "email": "Email",
+      "nipNumber": "IPN",
+      "uin": "UIN"
+    },
+    "placeholder": {
+      "mobile": "Enter Mobile Number",
+      "nrc": "Enter NRC ID",
+      "vid": "Saisir le VID",
+      "email": "Saisissez votre adresse e-mail",
+      "nipNumber": "Saisissez le IPN",
+      "uin": "Saisissez le UIN"
+    }
+  }
+},
+"errors": {
     "invalid_policyNumber": "Veuillez saisir un numéro de police valide.",
     "invalid_fullName": "Veuillez saisir un nom valide.",
     "invalid_dob": "Veuillez saisir une date de naissance valide.",
