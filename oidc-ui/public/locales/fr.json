@@ -297,24 +297,32 @@
     "consent_details_rejected": "Nous sommes désolés ! Votre connexion a échoué car le consentement n’a pas été partagé."
   },
   "loginOptions": {
-    "buttons": {
-      "vid": "UIN/VID",
-      "uin": "UIN",
-      "nipNumber": "IPN"
-    },
-    "input": {
-      "label": {
-        "vid": "UIN/VID",
-        "uin": "UIN",
-        "nipNumber": "IPN"
-      },
-      "placeholder": {
-        "nipNumber": "Saisissez l’IPN",
-        "uin": "Saisissez l’UIN",
-        "vid": "Saisissez l’UIN/VID"
-      }
-    }
-  },
+    "buttons": {
+      "mobile": "Mobile Number",
+      "nrc": "NRC ID",
+      "vid": "UIN/VID",
+      "email": "Email",
+      "nipNumber": "NIP",
+      "uin": "Numéro de justificatif V"
+    },
+    "input": {
+      "label": {
+        "mobile": "Mobile Number",
+        "nrc": "NRC ID",
+        "vid": "UIN/VID",
+        "email": "Email",
+        "nipNumber": "NIP",
+        "uin": "Numéro de justificatif V"
+      },
+      "placeholder": {
+        "mobile": "Enter Mobile Number",
+        "nrc": "Enter NRC ID",
+        "vid": "Saisir le UIN/VID",
+        "email": "Saisissez votre adresse e-mail",
+        "nipNumber": "Saisissez le NIP",
+        "uin": "Saisissez le numéro V-Credential"
+      }
+    },
   "errors": {
     "invalid_policyNumber": "Veuillez saisir un numéro de police valide.",
     "invalid_fullName": "Veuillez saisir un nom valide.",
